@@ -79,7 +79,7 @@ const Recipies = () => {
                   <tr key={item.id}>
                     <td className="text-sm text-gray-500">{index + 1}</td>
                     <td className="text-sm text-gray-500">{item.name}</td>
-                    <td className="text-sm text-gray-500">{item.time} time</td>
+                    <td className="text-sm text-gray-500">{item.time} minute</td>
                     <td className="text-sm text-gray-500">
                       {item.calories} calories
                     </td>
@@ -126,7 +126,7 @@ const Recipies = () => {
                         <td className="text-sm text-gray-500">{index + 1}</td>
                         <td className="text-sm text-gray-500">{item.name}</td>
                         <td className="text-sm text-gray-500">
-                          {item.time} time
+                          {item.time} minute
                         </td>
                         <td className="text-sm text-gray-500">
                           {item.calories} calories
@@ -137,9 +137,9 @@ const Recipies = () => {
                 </table>
               </div>
               {/* total time and calory  */}
-              <div className="flex flex-col border rounded-xl border-green-300 p-4 justify-end text-gray-500 gap-3 items-center">
-                <p>Total Time = {totalTime} minutes</p>
-                <p>Total Calories = {totalCalories} calories</p>
+              <div className="flex flex-col border-t border-r border-l rounded-xl border-green-300 p-4 justify-end text-gray-500 gap-3 items-center">
+                <p>Total Time = <span className="text-violet-600">{totalTime}</span> m</p>
+                <p>Total Calories = <span className="text-violet-600">{totalCalories}</span> c</p>
               </div>
             </div>
           ) : (
