@@ -54,8 +54,8 @@ const Recipies = () => {
           ))}
         </div>
 
-        <div className="md:col-span-5 col-span-7 border rounded-2xl p-1">
-          <h1 className="text-xl text-center py-4 font-semibold border-b">
+        <div className="md:col-span-5 col-span-7 h-max py-5 border rounded-2xl p-1">
+          <h1 className="text-xl text-center py-3 font-semibold border-b">
             Want To Cook :{" "}
             <span className="text-violet-500">{cook.length}</span>
           </h1>
