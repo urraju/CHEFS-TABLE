@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "image": "https://i.ibb.co/tXK4DQk/card1.png",
+    "Ingredients": [
+      "400 g spaghetti",
+      "200 g pancetta",
+      "4 eggs",
+      "100 g grated Parmesan cheese"
+    ],
+    "time": 20,
+    "calories": 450,
+    "description": "Classic Italian pasta dish with creamy egg and cheese sauce."
+  },
+  {
+    "id": 2,
+    "name": "Chicken Alfredo",
+    "image": "https://i.ibb.co/WVf7HbB/card2.png",
+    "Ingredients": [
+      "500 g fettuccine",
+      "300 g chicken breast",
+      "250 ml heavy cream",
+      "100 g grated Parmesan cheese"
+    ],
+    "time": 25,
+    "calories": 580,
+    "description": "Creamy pasta dish with tender chicken and rich Alfredo sauce."
+  },
+  {
+    "id": 3,
+    "name": "Pesto Pasta",
+    "image": "https://i.ibb.co/tXK4DQk/card1.png",
+    "Ingredients": [
+      "400 g penne pasta",
+      "100 g pine nuts",
+      "100 g fresh basil leaves",
+      "2 cloves garlic"
+    ],
+    "time": 15,
+    "calories": 380,
+    "description": "Fresh and vibrant pasta dish with homemade basil pesto."
+  },
+  {
+    "id": 4,
+    "name": "Lasagna",
+    "image": "https://i.ibb.co/WVf7HbB/card2.png",
+    "Ingredients": [
+      "500 g lasagna noodles",
+      "400 g ground beef",
+      "500 ml marinara sauce",
+      "250 g ricotta cheese"
+    ],
+    "time": 45,
+    "calories": 620,
+    "description": "Layered pasta dish with rich meat sauce and creamy cheese."
+  },
+  {
+    "id": 5,
+    "name": "Margherita Pizza",
+    "image": "https://i.ibb.co/tXK4DQk/card1.png",
+    "Ingredients": [
+      "300 g pizza dough",
+      "200 g mozzarella cheese",
+      "150 g cherry tomatoes",
+      "Basil leaves for topping"
+    ],
+    "time": 30,
+    "calories": 420,
+    "description": "Simple and classic pizza topped with tomatoes, cheese, and basil."
+  },
+  {
+    "id": 6,
+    "name": "Spaghetti Bolognese",
+    "image": "https://i.ibb.co/WVf7HbB/card2.png",
+    "Ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom"
+    ],
+    "time": 30,
+    "calories": 230,
+    "description": "Classic Italian pasta dish with savory meat sauce."
+  }
+]
